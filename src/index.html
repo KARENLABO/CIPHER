@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+
+  </head>
+
+  <body>
+         <form>
+
+      <div id="tituloPagina"
+      <h1>!Encripta tus mensajes con esta App</h1>
+      </div>
+
+      <div id="subTituloPagina"
+      <h1> Nadie podrá espiar tu Whatsapp Jamas!</h1>
+      </div>
+
+            <!--texto de dificultad de cifrado-->
+      <div id="textoNivelDificultad"
+      <p> *Selecciona el nivel de Dificultad <P/>
+      </div>
+      <!-- input para ingresar el texto a CIFRAR -->
+    
+      <div  id="mensajeACifrar"
+            <p>MENSAJE A CIFRAR:</p>
+      </div>
+
+      <input type ="text" id="valorACifrar" placeholder="Agrega aqui, tu mensaje a decifrar..." size="35" >
+      <!-- boton de CIFRAR -->
+          
+      <button type="button" id= "click1" onclick="clickCifrar()" >CIFRAR>></button>
+
+      <!-- input para ingresar el texto a DECIFRAR -->
+      <div  id="mensajeADecifrar"
+            <p>MENSAJE A DECIFRAR:</p>
+      </div>
+
+      <input type ="text" id="valorADecifrar" placeholder="tu mensaje de..." size="35" >
+      <!-- BOTONES DE CIFRAR Y DECIFRAR -->
+                        
+          <button type="button" id= "click2" onclick="clickDecifrar()" >DECIFRAR>></button>
+        
+        </form>
+    </body>
 </html>
