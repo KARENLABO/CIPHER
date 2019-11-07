@@ -5,48 +5,64 @@
 
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-
+    
   </head>
+  
 
-  <body>
-         <form>
+  <div class="backGround2"></div>
+  <body class="backGround">
 
-      <div id="tituloPagina"
-      <h1>!Encripta tus mensajes con esta App</h1>
+            <div class="backGround2"></div>
+        
+      <div id="tituloPagina" class="titulo">
+            <h1> CIFRA  TUS MENSAJES !AQUI!</h1>
       </div>
 
-      <div id="subTituloPagina"
-      <h1> Nadie podrá espiar tu Whatsapp Jamas!</h1>
+      <div class="subTitulo">
+             <h1> Nadie podrá espiar tu Whatsapp Jamas</h1>
       </div>
+      
 
             <!--texto de dificultad de cifrado-->
-      <div id="textoNivelDificultad"
-      <p> *Selecciona el nivel de Dificultad <P/>
+      <div id="textoNivelDificultad" class="textoDificultad">
+             <p> Numero de desplazamientos: <P/>
       </div>
+
+      
+            <!--INPUT OFFSET-->
+      <input type="text" id="range" class="range";  >
+   
+      
       <!-- input para ingresar el texto a CIFRAR -->
     
-      <div  id="mensajeACifrar"
+      <div  id="mensajeACifrar" class="texto-cifrar">
             <p>MENSAJE A CIFRAR:</p>
       </div>
-
-      <input type ="text" id="valorACifrar" placeholder="Agrega aqui, tu mensaje a decifrar..." size="35" >
+            <br>
+            <br>
+      <input type ="text" id="valorACifrar" placeholder="Agrega aqui, tu mensaje a Cifrar..." size="35" class="inputCifrado">
       <!-- boton de CIFRAR -->
-          
-      <button type="button" id= "click1" onclick="clickCifrar()" >CIFRAR>></button>
+
+      <button type="button" id= "click1" onclick="clickCifrar()" class="buttonCifrar">Cifrar...</button>
 
       <!-- input para ingresar el texto a DECIFRAR -->
-      <div  id="mensajeADecifrar"
+      <div  id="mensajeADecifrar" class="texto-decifrar">
             <p>MENSAJE A DECIFRAR:</p>
       </div>
 
-      <input type ="text" id="valorADecifrar" placeholder="tu mensaje de..." size="35" >
+      <input type ="text" id="valorADecifrar" placeholder="tu mensaje es..." size="35" class="inputDecifrar">
       <!-- BOTONES DE CIFRAR Y DECIFRAR -->
                         
-          <button type="button" id= "click2" onclick="clickDecifrar()" >DECIFRAR>></button>
+          <button type="button" id= "click2" onclick="clickDecifrar()" class="buttonDecifrar" >Decifrar...</button>
         
-        </form>
+      <link rel="stylesheet" href="style.css" />
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+             <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+             <link href="https://fonts.googleapis.com/css?family=Delius+Unicase&display=swap" rel="stylesheet">
+             <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+       
+       
     </body>
 </html>
