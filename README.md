@@ -23,4 +23,4 @@ que quieren tener una conversación secreta ya que cuenta con la opción de deci
 
 4.4 Prototipo final no se pudo conservar con el fondo que se les presento en el primero, pero se agregaron las caracteristicas de los emojis y de la explicacion muy general en el titulo del mismo.
 
-3. ![PrototipoInicial](https://raw.githubusercontent.com/KARENLABO/GDL004-cipher/master/src/styles/PROTOTIPO%20INICIAL.jpeg)
+3. ![PrototipoInicial](https://raw.githubusercontent.com/KARENLABO/GDL004-cipher/master/src/styles/PRIMER%20PROTOTIPO.JPG)
