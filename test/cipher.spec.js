@@ -10,7 +10,7 @@ describe('cipher', () => {
       expect(typeof cipher.encode).toBe('function');
     });
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
-      expect(cipher.encode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG")).toBe("HIJKLMNOPQRSTUVWXYZABCDEFG");
+      expect(cipher.encode(33,"ABCDEFGHIJKLMNOPQRSTUVWXYZ")).toBe("HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
     // Hacker edition
     //
@@ -38,7 +38,7 @@ describe('cipher', () => {
       expect(typeof cipher.decode).toBe('function');
     });
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', () => {
-     //escribe aquí tus test
+      expect(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG")).toBe("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
     //
     // Hacker edition
