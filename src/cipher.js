@@ -31,3 +31,16 @@ window.cipher =  {
             
 
 };
+
+
+function createHTML() {
+    for(let i=0; i<infoGeneral.length; i++){
+      let containerDiv=create('div',{className:"container"},parent);
+      var obj= infoGeneral[i];
+      create("p",{textContent:"name:" + obj.name}, containerDiv);
+      create("p",{textContent:"img:" + obj.img}, containerDiv);
+      create("p",{textContent:"actor:" + obj.actor}, containerDiv);
+    
+      mostrar.appendChild(newDiv);  
+    }
+    }
