@@ -1,98 +1,104 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://cdn1.iconfinder.com/data/icons/natural-world/360/fire-flame_16-512.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 , maximum-scale=1"
+    />
+    <title>Infieles.com</title>
 
-<head>
+    <!-- SCRIPTS BOOSTRAP-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- END SCRIPTS BOOSTRAP-->
+    <!-- SCRIPTS TO CONECT WITH THE OTHER FILES-->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="cipher.js"></script> -->
+    <script type="module" src="index.js"></script>
+    <script type="module" src="cipher.js"></script>
+  </head>
 
-  <meta charset="utf-8">
-  <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/natural-world/360/fire-flame_16-512.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1" />
-  <title>Infieles.com</title>
-  <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Delius+Unicase&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul id="listOfToggler" class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li id="togglerElementAbout" class="nav-item">
+            <div id="about" class="nav-link" href="#">
+              About
+            </div>
+          </li>
+        </ul>
+      </div>
 
-</head>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="navbar-brand" Onclick="showCipher()">
+        Infieles.com
 
+        <img
+          alt="fireIconNav"
+          src="https://cdn1.iconfinder.com/data/icons/natural-world/360/fire-flame_16-512.png"
+          width="18"
+        />
+      </div>
+    </nav>
+    <!-- END NAV BAR -->
 
+    <!-- CONTAINER TO ADD INFO BY JS -->
+    <div id="container" class="container"></div>
+    <!-- END CONTAINER TO ADD INFO BY JS -->
 
-<body class="backGround">
-
-  <div class="backGround2"></div>
-  <div class="backGround2"></div>
-
-  <div id="tituloPagina" class="titulo">
-    <h1> Encrypt your WhatsApp conversations here</h1>
-  </div>
-
-  <div class="ImagenLogoWS">
-    <img src="https://www.expromed.cl/wp-content/uploads/2015/07/whatsapp_PNG21.png" alt="logoWS" width="160" />
-  </div>
-
-  <div class="emojiLentes">
-    <img src="https://i.pinimg.com/originals/25/b9/24/25b924f1d18fea2c7dfcb26a9905c1e8.png" alt="emojiLentes"
-      width="140" />
-  </div>
-
-  <div class="emojiguiño">
-    <img src="https://www.freepngimg.com/thumb/emoji/1-2-wink-emoji-png-thumb.png" alt="emojiguiño" width="170" />
-  </div>
-
-  <div class="emojiFuego">
-    <img src="https://www.pngkey.com/png/full/438-4388740_fire-emoji-fire-flame-emoji-emoticon-iphone.png"
-      alt="emojiFuego" width="120" />
-  </div>
-
-  <div class="emojiBeso">
-    <img src="https://www.diariodesevilla.es/2019/07/16/sociedad/Beso_1373572955_102663104_667x643.png" alt="emojiBeso"
-      width="150" />
-  </div>
-
-  <div class="emojiChango">
-    <img src="http://topmusic.mx/wp-content/uploads/2018/07/upscale-235527132031212.png" alt="emojiChango"
-      width="170" />
-  </div>
-
-
-  <div class="subTitulo">
-    <h1> No one will be able to spy on your WhatsApp</h1>
-  </div>
-
-
-  <!--texto de dificultad de cifrado-->
-  <div id="textoNivelDificultad" class="textoDificultad">
-    <p> Choose the amount of dificult (1-30): </p>
-  </div>
-
-
-  <!--INPUT OFFSET-->
-  <input type="text" id="range" class="range">
-
-
-  <!-- input para ingresar el texto a CIFRAR -->
-
-  <div id="mensajeACifrar" class="texto-cifrar">
-    <p>MENSAJE A CIFRAR:</p>
-  </div>
-  <br>
-  <br>
-  <input type="text" id="valorACifrar" placeholder="Agrega aqui, tu mensaje a Cifrar..." size="35" class="inputCifrado">
-  <!-- input para ingresar el texto a DECIFRAR -->
-  <div id="mensajeADecifrar" class="texto-decifrar">
-    <p>MENSAJE A DECIFRAR:</p>
-  </div>
-
-  <input type="text" id="valorADecifrar" placeholder="tu mensaje es..." size="35" class="inputDecifrar" />
-
-
-  <link rel="stylesheet" href="style.css" />
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-
-
-
-</body>
-
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="nav d-flex justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-secondary mb-4" href="#"
+                  >Copyright © 2020 infieles.com All Rights Reserved</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
 </html>
